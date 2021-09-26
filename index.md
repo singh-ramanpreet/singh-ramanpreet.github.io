@@ -1,8 +1,6 @@
 ---
-title: Home
 layout: page
-navbar: true
-order: 0
+navbar: false
 contacts:
   - name: Github
     link: https://github.com/singh-ramanpreet
@@ -12,7 +10,7 @@ contacts:
     icon-class: icon major brands fa-linkedin-in
 ---
 
-<section id="intro" class="wrapper style1 fullscreen fade-up">
+<section id="intro" class="wrapper style2 fullscreen fade-up">
   <div class="inner">
     <div class="row gtr-uniform">
       <div class="col-6">
