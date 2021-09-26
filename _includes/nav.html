@@ -1,22 +1,16 @@
 <!-- Sidebar -->
-
-{% assign sorted_pages = site.pages | sort:"order" %}
-
-<section id="sidebar">
+{%- assign sorted_pages = site.pages | sort:"order" -%}
+<div id="sidebar">
   <div class="inner">
-    <nav>
+    <nav id="menu">
       <ul>
-        <li><a href={%- if page.url=="/" -%} "#intro" {%- else -%} "{{ '/#intro' | absolute_url }}" {%- endif -%}>Home</a></li>
-        <li><a href={%- if page.url=="/" -%} "#contact" {%- else -%} "{{ '/#contact' | absolute_url }}" {%- endif -%}>Contact</a></li>
         {% for item in sorted_pages -%}
         {% if item.navbar == true -%}
-        {% if item.url == page.url -%}{% capture li_class -%}class="active"{%- endcapture %}
-        {% else -%}{% assign li_class = nil -%}
-        {%- endif -%}
-        <li><a href="{{ item.url | absolute_url | replace:'/','' }}" {{ li_class -}}>{{ item.title }}</a></li>
+        <li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
         {%- endif %}
         {%- endfor %}
       </ul>
     </nav>
+    {% include footer.html %}
   </div>
-</section>
+</div>

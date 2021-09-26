@@ -4,15 +4,22 @@
 {% include head.html %}
 
 <body class="is-preload">
-
-  {% include nav.html %}
-
   <!-- Wrapper -->
   <div id="wrapper">
-    {{ content }}
+    <div id="main">
+      <div class="inner">
+        <header id="header">
+          <ul class="icons">
+            <li>Contact</li>
+            {%- for contact in site.contacts %}
+            <li><a href="{{ contact.link }}" class="{{ contact.icon-class }}"><span class="label">{{ contact.name }}</span></a></li>{% endfor %}
+          </ul>
+        </header>
+        {{ content }}
+      </div>
+    </div>
+    {% include nav.html %}
   </div>
-
-  {% include footer.html %}
 
   {% include scripts.html %}
 
