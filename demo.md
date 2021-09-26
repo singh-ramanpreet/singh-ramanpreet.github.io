@@ -5,10 +5,14 @@ navbar: true
 order: 1
 ---
 
-<section class="wrapper style1 fullscreen fade-up">
-  <div class="inner">
-    <div class="row gtr-uniform">
-      <p>Demo</p>
-    </div>
-  </div>
+<section>
+  <header class="main"><h1>{{ page.title }}</h1></header>
+  <span class="image left"><img src="images/pic01.jpg" alt="" /></span>
+  <p>
+    demo demo demo demo
+    demo demo demo demo
+    demo demo demo demo
+    demo demo demo demo
+    demo demo demo demo
+  </p>
 </section>
