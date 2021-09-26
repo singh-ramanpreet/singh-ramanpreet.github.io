@@ -10,6 +10,9 @@
                 "isDefault": true
             },
             "isBackground": true,
+            "presentation": {
+                "reveal": "silent"
+            }
         },
         {
             "label": "Build",

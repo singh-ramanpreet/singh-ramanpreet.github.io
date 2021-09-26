@@ -1,2 +1,12 @@
 # Site Settings
 title: Ramanpreet Singh
+
+markdown: kramdown
+
+kramdown:
+  auto_ids: false
+  gfm_quirks: [paragraph_end]
+
+exclude:
+  - LICENSE.md
+  - README.md 

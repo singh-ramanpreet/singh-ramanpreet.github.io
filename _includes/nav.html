@@ -1,0 +1,22 @@
+{%- assign sorted_pages = site.pages | sort:"order" -%}
+<section id="sidebar">
+  <div class="inner">
+    <nav>
+      <ul>
+        {% for item in sorted_pages -%}
+        {% if item.navbar == true -%}
+        {% if item.url == page.url -%}{% capture li_class -%}class="active"{%- endcapture %}
+        {% else -%}{% assign li_class = nil -%}
+        {%- endif %}
+        {%- if item.order == 0 -%}
+        <li><a href={%- if page.url=="/" -%} "#intro" {%- else -%} "{{ '/#intro' | absolute_url }}" {%- endif -%}>{{item.title}}</a></li>
+        <li><a href={%- if page.url=="/" -%} "#contact" {%- else -%} "{{ '/#contact' | absolute_url }}" {%- endif -%}>Contact</a></li>
+        {% else -%}
+        <li><a href="{{ item.url | absolute_url }}" {{ li_class -}}>{{ item.title }}</a></li>
+        {%- endif %}
+        {%- endif %}
+        {%- endfor %}
+      </ul>
+    </nav>
+  </div>
+</section>
