@@ -1,0 +1,9 @@
+{
+    "[html]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.detectIndentation": false,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "html.format.wrapLineLength": 0
+}

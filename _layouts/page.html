@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+
+{% include head.html %}
+
+<body class="is-preload">
+  <!-- Wrapper -->
+  <div id="wrapper">
+    <div id="main">
+      <div class="inner">
+        <header id="header">
+          <ul class="icons">
+            <li>Contact</li>
+            {%- for contact in site.contacts %}
+            <li><a href="{{ contact.link }}" class="{{ contact.icon-class }}"><span class="label">{{ contact.name }}</span></a></li>{% endfor %}
+          </ul>
+        </header>
+        {{ content }}
+      </div>
+    </div>
+    {% include nav.html %}
+  </div>
+
+  {% include scripts.html %}
+
+</body>
+
+</html>

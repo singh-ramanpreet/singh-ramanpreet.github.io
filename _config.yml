@@ -1,0 +1,20 @@
+# Site Settings
+title: Ramanpreet Singh
+
+contacts:
+  - name: Github
+    link: https://github.com/singh-ramanpreet
+    icon-class: icon brands fa-github
+  - name: LinkedIn
+    link: https://www.linkedin.com/in/singh-ramanpreet
+    icon-class: icon brands fa-linkedin-in
+
+markdown: kramdown
+
+kramdown:
+  auto_ids: false
+  gfm_quirks: [paragraph_end]
+
+exclude:
+  - LICENSE.md
+  - README.md 
