@@ -1,7 +1,7 @@
 ---
 title: Generic
 layout: page
-navbar: true
+navbar: false
 ---
 
 <section>

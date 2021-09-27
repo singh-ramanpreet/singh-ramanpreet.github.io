@@ -8,15 +8,16 @@ order: 0
 <section id="banner">
   <div class="content">
     <header><h1>Hi, I'm <br/>{{ site.title }}</h1></header>
-    <p style="font-size: x-large"><i>Physicist, <br/> Data Science, <br/> Enthusiastic Coder, <br> and Always Learning!</i></p>
+    <p style="font-size: x-large"><i>Physicist, <br/> Data Analyzer, <br/> Enthusiastic Coder, <br> and Always Learning!</i></p>
   </div>
   <span class="image object">
     <img src="{{ '/images/profile.jpg' | relative_url }}" alt="" />
   </span>
 </section>
 
+<!-- Hide
 <section>
-  <header class="major"><h2>Highlight</h2></header>
+  <header class="major"><h2> Projects </h2></header>
   <div class="features">
     <article><span class="icon fa-gem"></span>
       <div class="content">
@@ -72,3 +73,4 @@ order: 0
   </article>
   </div>
 </section>
+-->

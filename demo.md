@@ -1,7 +1,7 @@
 ---
 title: Demo
 layout: page
-navbar: true
+navbar: false
 order: 1
 ---
 

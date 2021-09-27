@@ -1,7 +1,7 @@
 ---
 title: Elements
 layout: page
-navbar: true
+navbar: false
 ---
 
 <section>
