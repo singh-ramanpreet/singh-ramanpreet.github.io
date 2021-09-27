@@ -1,6 +1,6 @@
 ### Personal Website
 
-Deployed at https://singhramanpreet.com serving `gh-pages` branch build using Github Action.
+Deployed at <a href="https://singhramanpreet.com" target="_blank">singhramanpreet.com</a> serving `gh-pages` branch build using Github Action.
 
 ### Notes
 
