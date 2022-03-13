@@ -15,6 +15,17 @@ order: 0
   </span>
 </section>
 
+<!--
+<section>
+  <header class="major"><h2> Posts </h2></header>
+    <ul>
+    {% for post in site.posts %}
+      <li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
+    {% endfor %}
+    </ul>
+</section>
+-->
+
 <!-- Hide
 <section>
   <header class="major"><h2> Projects </h2></header>

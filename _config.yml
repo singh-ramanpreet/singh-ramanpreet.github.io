@@ -17,4 +17,15 @@ kramdown:
 
 exclude:
   - LICENSE.md
-  - README.md 
+  - README.md
+
+collections:
+  pages:
+    output: true
+    permalink: /:name:output_ext
+  posts:
+    output: true
+    permalink: /:name:output_ext
+  drafts:
+    output: true
+    permalink: /:name:output_ext
