@@ -5,5 +5,15 @@
         "editor.tabSize": 2,
         "editor.insertSpaces": true
     },
-    "html.format.wrapLineLength": 0
+    "[jekyll]": {
+        "editor.tabSize": 2
+    },
+    "html.format.wrapLineLength": 0,
+    "emmet.includeLanguages": {
+        "jekyll": "html",
+        "scss": "css"
+    },
+    "files.associations": {
+        "*.html": "jekyll"
+    }
 }

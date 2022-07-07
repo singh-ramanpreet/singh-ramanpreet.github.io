@@ -4,7 +4,6 @@ layout: page
 navbar: false
 ---
 
-<section>
   <header class="main">
     <h1>Elements h1</h1>
   </header>
@@ -365,30 +364,30 @@ navbar: false
     </form>
     <h3>Image</h3>
     <h4>Fit</h4>
-    <span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+    <span class="image fit">{% include img.html src='pic01.jpg' %}</span>
     <div class="box alt">
       <div class="row gtr-50 gtr-uniform">
-        <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-        <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-        <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+        <div class="col-4"><span class="image fit">{% include img.html src='pic01.jpg' %}</span></div>
+        <div class="col-4"><span class="image fit">{% include img.html src='pic01.jpg' %}</span></div>
+        <div class="col-4"><span class="image fit">{% include img.html src='pic01.jpg' %}</span></div>
         <!-- Break -->
-        <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-        <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-        <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+        <div class="col-4"><span class="image fit">{% include img.html src='pic01.jpg' %}</span></div>
+        <div class="col-4"><span class="image fit">{% include img.html src='pic01.jpg' %}</span></div>
+        <div class="col-4"><span class="image fit">{% include img.html src='pic01.jpg' %}</span></div>
         <!-- Break -->
-        <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-        <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-        <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+        <div class="col-4"><span class="image fit">{% include img.html src='pic01.jpg' %}</span></div>
+        <div class="col-4"><span class="image fit">{% include img.html src='pic01.jpg' %}</span></div>
+        <div class="col-4"><span class="image fit">{% include img.html src='pic01.jpg' %}</span></div>
       </div>
     </div>
     <h4>Left &amp; Right</h4>
-    <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>
+    <p><span class="image left">{% include img.html src='pic01.jpg' %}</span>
       The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, 
       The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, 
       The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, 
       The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog.
     </p>
-    <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>
+    <p><span class="image right">{% include img.html src='pic01.jpg' %}</span>
       The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, 
       The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, 
       The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, 
@@ -404,7 +403,8 @@ navbar: false
       </p>
     </div>
     <h3>Preformatted</h3>
-<pre><code>i = 0;
+{% highlight python %}
+i = 0;
 
 while (!deck.isInOrder()) {
     print 'Iteration ' + i;
@@ -413,7 +413,73 @@ while (!deck.isInOrder()) {
 }
 
 print 'It took ' + i + ' iterations to sort the deck.';
-</code></pre>
+{% endhighlight %}
   </div>
 </div>
+
+
+<section>
+  <header class="major"><h2> Projects </h2></header>
+  <div class="features">
+    <article><span class="icon fa-gem"></span>
+      <div class="content">
+        <h3> Title </h3>
+        <p> The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog.</p>
+      </div>
+    </article>
+    <article><span class="icon solid fa-paper-plane"></span>
+      <div class="content">
+        <h3> Title </h3>
+        <p> The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog.</p>
+      </div>
+    </article>
+    <article><span class="icon solid fa-rocket"></span>
+      <div class="content">
+        <h3> Title </h3>
+        <p> The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog.</p>
+    </div>
+    </article>
+    <article><span class="icon solid fa-signal"></span>
+      <div class="content">
+        <h3> Title </h3>
+        <p> The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <header class="major"><h2> Posts </h2></header>
+  <div class="posts">
+  <article><a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+    <h3>Title</h3>
+    <p>The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog.</p>
+    <ul class="actions">
+      <li><a href="#" class="button">More</a></li>
+    </ul>
+  </article>
+  <article><a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+    <h3>Title</h3>
+    <p>The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog.</p>
+    <ul class="actions">
+      <li><a href="#" class="button">More</a></li>
+    </ul>
+  </article>
+  <article><a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+    <h3>Title</h3>
+    <p>The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog.</p>
+    <ul class="actions">
+      <li><a href="#" class="button">More</a></li>
+    </ul>
+  </article>
+  </div>
+</section>
+
+<section>
+  <header class="major"><h2> Posts </h2></header>
+    <ul>
+    {% for post in site.posts %}
+      <li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
+    {% endfor %}
+    </ul>
 </section>

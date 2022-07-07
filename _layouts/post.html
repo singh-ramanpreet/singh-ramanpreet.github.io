@@ -8,14 +8,10 @@
   <div id="wrapper">
     <div id="main">
       <div class="inner">
-        <header id="header">
-          <ul class="icons">
-            <li>Contact</li>
-            {%- for contact in site.contacts %}
-            <li><a href="{{ contact.link }}" class="{{ contact.icon-class }}"><span class="label">{{ contact.name }}</span></a></li>{% endfor %}
-          </ul>
-        </header>
-        {{ content }}
+        {% include header.html %}
+        <section>
+          {{ content }}
+        </section>
       </div>
     </div>
     {% include nav.html %}

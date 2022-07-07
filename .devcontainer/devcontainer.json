@@ -8,5 +8,8 @@
         35729
     ],
     "postCreateCommand": "sh .devcontainer/post-create.sh",
+    "extensions": [
+        "ginfuru.ginfuru-vscode-jekyll-syntax"
+    ],
     "remoteUser": "vscode"
 }

@@ -20,3 +20,7 @@ Deployed at <a href="https://singhramanpreet.com" target="_blank">singhramanpree
 1. Elements: https://singhramanpreet.com/elements.html
 2. Generic: https://singhramanpreet.com/generic.html
 3. 404: https://singhramanpreet.com/404.html
+
+### Credits
+
+Converted to [Jekyll](https://jekyllrb.com/) based theme using [html5up.net](https://html5up.net/editorial) "Editorial" theme.
