@@ -9,17 +9,21 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Build and run dev container task
+      - name: Build and run devcontainer 🏗️
         uses: devcontainers/ci@v0.2
         env:
           JEKYLL_ENV: production
         with:
-          imageName: ghcr.io/example/example-devcontainer
+          imageName: none
           runCmd: |
             bundle install
             bundle exec jekyll build
 
-      - uses: helaili/jekyll-action@v2
+      - name: Install rsync 📚
+        run: |
+          apt-get update && apt-get install -y rsync
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          target_branch: 'gh-pages'
+          folder: _site
