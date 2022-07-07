@@ -14,6 +14,7 @@ jobs:
         env:
           JEKYLL_ENV: production
         with:
+          imageName: ghcr.io/example/example-devcontainer
           runCmd: |
             bundle install
             bundle exec jekyll build
