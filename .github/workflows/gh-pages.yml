@@ -14,14 +14,10 @@ jobs:
         env:
           JEKYLL_ENV: production
         with:
-          imageName: none
+          imageName: mcr.microsoft.com/vscode/devcontainers/jekyll
           runCmd: |
             bundle install
             bundle exec jekyll build
-
-      - name: Install rsync 📚
-        run: |
-          apt-get update && apt-get install -y rsync
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
