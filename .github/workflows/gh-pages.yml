@@ -9,13 +9,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # Use GitHub Actions' cache to shorten build times and decrease load on servers
-      - uses: actions/cache@v2
+      - name: Build and run dev container task
+        uses: devcontainers/ci@v0.2
+        env:
+          JEKYLL_ENV: production
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-          restore-keys: |
-           ${{ runner.os }}-gems-
+          runCmd: |
+            bundle install
+            bundle exec jekyll build
 
       - uses: helaili/jekyll-action@v2
         with:
