@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Ramanpreet Singh, Ph.D.</title>
+    <link>/page/</link>
+    <description>Recent content in Pages on Ramanpreet Singh, Ph.D.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/page/about/</guid>
+      <description>Hi, I&amp;rsquo;m Ramanpreet. I&amp;rsquo;m a problem solver. I love learning new skills and creating solutions to problems.
+I&amp;rsquo;m currently working as control software engineer at Best Automation and Robotics in Loves Park, IL USA.
+I completed my Ph.D. Physics (Experimental High Energy Physics) at Northern Illinois University in 2022. I worked on the CMS experiment at CERN in Geneva, Switzerland. The experiment provided petabytes of proton-proton collision data. Analyzing this amount of data is a challenge in itself and searching for rare signal is even more challenging.</description>
+    </item>
+    
+    <item>
+      <title>Archives</title>
+      <link>/page/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/page/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>/page/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/page/search/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
