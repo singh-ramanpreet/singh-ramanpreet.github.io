@@ -1,26 +1,14 @@
-### Personal Website
+# Personal Website/Portfolio
 
-Deployed at <a href="https://singhramanpreet.com" target="_blank">singhramanpreet.com</a> serving `gh-pages` branch build using Github Action.
+This is my personal website/portfolio. It is built using [Hugo](https://gohugo.io/) and the [Hugo Stack Theme](https://themes.gohugo.io/themes/hugo-theme-stack/). Visit the website at [https://singhramanpreet.com](https://singhramanpreet.com).
 
-### Notes
+## Development
 
-#### pages
- - directory: `_pages`
- - `layout: page`
- - custom frontmatter options:
-   - `navbar: <true | false>` to display in sidebar menu
-   - `order: #` in what order to be displayed in menu.
- - `permalink: /:name:output_ext` configured in `_config.yml` as `collection`.
+1. Install extended version of Hugo. This repo has devcontainer setup for VS Code.
+2. Install theme:
 
-#### posts (drafts)
- - directory: `_posts`(`_drafts`)
- - `layout: post`
- - `permalink: /:name:output_ext` configured in `_config.yml` as `collection`.
+```bash
+git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+```
 
-1. Elements: https://singhramanpreet.com/elements.html
-2. Generic: https://singhramanpreet.com/generic.html
-3. 404: https://singhramanpreet.com/404.html
-
-### Credits
-
-Converted to [Jekyll](https://jekyllrb.com/) based theme using [html5up.net](https://html5up.net/editorial) "Editorial" theme.
+3. Configure theme and other settings in `config.yaml`.

@@ -1,15 +1,24 @@
 {
-    "name": "Jekyll",
-    "image": "mcr.microsoft.com/vscode/devcontainers/jekyll",
+    "name": "Hugo",
+    "image": "mcr.microsoft.com/devcontainers/go",
     "forwardPorts": [
-        // Jekyll server
-        4000,
-        // Live reload server
-        35729
+        // default hugo port for local development
+        1313
     ],
-    "postCreateCommand": "sh .devcontainer/post-create.sh",
-    "extensions": [
-        "ginfuru.ginfuru-vscode-jekyll-syntax"
-    ],
-    "remoteUser": "vscode"
+    "features": {
+        "ghcr.io/devcontainers/features/hugo:1": {
+            "extended": true
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.vscode-github-actions",
+                "yzhang.markdown-all-in-one",
+                "ecmel.vscode-html-css"
+            ]
+        }
+    },
+    "remoteUser": "vscode",
+    "shutdownAction": "stopContainer"
 }
