@@ -2,11 +2,11 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Serve",
+            "label": "Run Hugo Server",
             "type": "shell",
-            "command": "bundle exec jekyll serve --livereload",
+            "command": "hugo server -D",
             "group": {
-                "kind": "test",
+                "kind": "none",
                 "isDefault": true
             },
             "isBackground": true,
@@ -15,12 +15,12 @@
             }
         },
         {
-            "label": "Build",
+            "label": "Publish",
             "type": "shell",
-            "command": "bundle exec jekyll build",
+            "command": "hugo",
             "group": {
                 "kind": "build",
-                "isDefault": true
+                "isDefault": false
             },
         }
     ]

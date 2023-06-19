@@ -6,13 +6,14 @@
         1313
     ],
     "features": {
-        "ghcr.io/devcontainers/features/hugo:1": {}
+        "ghcr.io/devcontainers/features/hugo:1": {
+            "extended": true
+        }
     },
     "customizations": {
         "vscode": {
             "extensions": [
-                "golang.Go",
-                "GitHub.copilot",
+                "GitHub.vscode-github-actions",
                 "yzhang.markdown-all-in-one",
                 "ecmel.vscode-html-css"
             ]

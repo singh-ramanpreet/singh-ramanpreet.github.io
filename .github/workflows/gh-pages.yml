@@ -1,4 +1,4 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Build and deploy hugo site to GitHub Pages
 
 on:
   workflow_dispatch
@@ -9,17 +9,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Build and run devcontainer 🏗️
-        uses: devcontainers/ci@v0.2
-        env:
-          JEKYLL_ENV: production
+      - name: Build 🏗️
+        uses: devcontainers/ci@v0.3
         with:
           imageName: none
-          runCmd: |
-            bundle install
-            bundle exec jekyll build
+          runCmd: hugo
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: _site
+          folder: public

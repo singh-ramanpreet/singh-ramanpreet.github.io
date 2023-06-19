@@ -1,0 +1,45 @@
+baseURL: "/"
+languageCode: "en-us"
+title: "Ramanpreet Singh, Ph.D."
+theme: "hugo-theme-stack"
+paginate: 5
+params:
+  description: "Ramanpreet Singh's personal blog"
+  author: "Ramanpreet Singh"
+  keywords: "Data Science, Machine Learning, Analytics, Automation, Robotics"
+  favicon: "/favicon.png"
+  mainSections:
+    - "posts"
+  dateFormat:
+    published: "January 2, 2006"
+    lastupdated: "January 2, 2006 15:04 MST"
+  sidebar:
+    emoji: "👋"
+    subtitle: "Physicist, always learning!"
+    avatar:
+      local: false
+      enable: true
+      src: "https://avatars.githubusercontent.com/u/33043366?v=4"
+  footer:
+    since: 2016
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+          limit: 5
+menu:
+  main: []
+  social:
+    - identifier: linkedin
+      name: LinkedIn
+      url: https://www.linkedin.com/in/singh-ramanpreet/
+      params:
+        icon: linkedin
+        newTab: true
+    - identifier: github
+      name: GitHub
+      url: https://github.com/singh-ramanpreet
+      params:
+        icon: brand-github
+        newTab: true
