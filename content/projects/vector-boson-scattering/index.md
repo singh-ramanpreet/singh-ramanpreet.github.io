@@ -27,7 +27,7 @@ Since we cannot directly observe the vector bosons, we look at final stable part
 
 The [CMS](https://cms.cern/) detector is a multipurpose particle detector that is designed to study a wide range of physics processes. It consists of several subdetectors, each designed to measure different properties of particles produced in high-energy collisions.
 
-![A diagram showing the CMS detector at CERN](diagram2.png "CMS detector at CERN")
+![A diagram showing the slice view of the CMS detector at CERN](diagram2.png "Slice view of the CMS detector at CERN")
 
 ## Analysis
 
