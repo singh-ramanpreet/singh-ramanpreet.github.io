@@ -15,7 +15,8 @@
             "extensions": [
                 "GitHub.vscode-github-actions",
                 "yzhang.markdown-all-in-one",
-                "ecmel.vscode-html-css"
+                "ecmel.vscode-html-css",
+                "esbenp.prettier-vscode"
             ]
         }
     },

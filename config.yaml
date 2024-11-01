@@ -1,45 +1,49 @@
 baseURL: "/"
 languageCode: "en-us"
-title: "Ramanpreet Singh, Ph.D."
-theme: "hugo-theme-stack"
-paginate: 5
+title: "Ramanpreet Singh"
+theme: "congo"
+
 params:
-  description: "Ramanpreet Singh's personal blog"
-  author: "Ramanpreet Singh"
-  keywords: "Data Science, Machine Learning, Analytics, Automation, Robotics"
-  favicon: "/favicon.png"
-  mainSections:
-    - "posts"
-  dateFormat:
-    published: "January 2, 2006"
-    lastupdated: "January 2, 2006 15:04 MST"
-  sidebar:
-    emoji: "👋"
-    subtitle: "Physicist, always learning!"
-    avatar:
-      local: false
-      enable: true
-      src: "https://avatars.githubusercontent.com/u/33043366?v=4"
+  colorScheme: "ocean"
+  enableCodeCopy: true
+  enableImageLazyLoading: true
+  enableImageWebp: true
+  
+  header:
+    layout: "hybrid"
+  
+  homepage:
+    layout: "profile"
+  
+  author:
+    name: "Ramanpreet Singh, Ph.D."
+    image: "img/avatar.png"
+    headline: "Physicist, Data Scientist, Robotics, Automation and Software Developer"
+    bio: "Always learning!"
+    links:
+      - linkedin: https://www.linkedin.com/in/singh-ramanpreet/
+      - github: https://github.com/singh-ramanpreet
+
+  list:
+    groupByYear: false
+
   footer:
-    since: 2016
-  widgets:
-    homepage:
-      - type: search
-      - type: archives
-        params:
-          limit: 5
-menu:
-  main: []
-  social:
-    - identifier: linkedin
-      name: LinkedIn
-      url: https://www.linkedin.com/in/singh-ramanpreet/
-      params:
-        icon: linkedin
-        newTab: true
-    - identifier: github
-      name: GitHub
-      url: https://github.com/singh-ramanpreet
-      params:
-        icon: brand-github
-        newTab: true
+    showAppearanceSwitcher: true
+
+menus:
+  main:
+    - name: "Projects"
+      pageRef: "projects"
+      weight: 10
+
+    - name: "Education"
+      url: "/page/about#education"
+      weight: 20
+
+    - name: "Experience"
+      url: "/page/about#experience"
+      weight: 30
+
+    - name: "Publications"
+      url: "/page/about#publications"
+      weight: 40
