@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Ramanpreet Singh</title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on Ramanpreet Singh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vector Boson Scattering</title>
+      <link>/projects/vector-boson-scattering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/vector-boson-scattering/</guid>
+      <description>My Ph.D. research project to search for vector boson scattering, a rare elementary physics process.</description>
+    </item>
+  </channel>
+</rss>
