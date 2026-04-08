@@ -15,11 +15,11 @@
     
   
     
-  
-    
       <url>
-            <loc>/projects/budget-app-nextjs/</loc>
+            <loc>/projects/bgscore-app/</loc>
           </url>
+    
+  
     
   
     
@@ -31,6 +31,12 @@
     
       <url>
             <loc>/projects/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/projects/simple-budget-app/</loc>
           </url>
     
   

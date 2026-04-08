@@ -8,11 +8,18 @@
     <language>en-us</language>
     <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Full Stack Simple Budget WebApp with Next.js 15</title>
-      <link>/projects/budget-app-nextjs/</link>
+      <title>BGScore - A Board Game Score Tracking and Sharing App</title>
+      <link>/projects/bgscore-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/projects/budget-app-nextjs/</guid>
-      <description>This project is a simple budget application developed with Next.js 15 (TypeScript). It allows to track expenses and manage budgets.</description>
+      <guid>/projects/bgscore-app/</guid>
+      <description>A board game score tracking and sharing application to help keep track of scores.</description>
+    </item>
+    <item>
+      <title>Simple Budget - Local-Only Web App</title>
+      <link>/projects/simple-budget-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/simple-budget-app/</guid>
+      <description>This project is a simple budget local only web application. It allows to track expenses and manage budgets.</description>
     </item>
     <item>
       <title>Vector Boson Scattering</title>
