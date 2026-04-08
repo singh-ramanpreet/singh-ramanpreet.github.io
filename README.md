@@ -11,4 +11,16 @@ This is my personal website/portfolio. It is built using [Hugo](https://gohugo.i
 git submodule add https://github.com/jpanther/congo themes/congo
 ```
 
+on fresh clone, run:
+
+```bash
+git submodule update --init --recursive
+```
+
+update theme:
+
+```bash
+git submodule update --remote --merge
+```
+
 3. Configure theme and other settings in `config.yaml`.
