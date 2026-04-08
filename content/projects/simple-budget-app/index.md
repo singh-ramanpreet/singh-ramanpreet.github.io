@@ -39,13 +39,8 @@ The source code for this project is available on GitHub: [https://github.com/sin
 
 ## Screenshots
 
-![Budget App Home Page - Light Mode](./Screenshot_1.png)
-![Budget App Home Page - Dark Mode](./Screenshot_2.png)
-![Budget App Home Page Scrolled Down - Light Mode](./Screenshot_3.png)
-![Budget App Home Page Scrolled Down - Dark Mode](./Screenshot_4.png)
-![Budget App Add Bucket - Light Mode](./Screenshot_5.png)
-![Budget App Add Bucket - Dark Mode](./Screenshot_6.png)
-![Budget App Charts - Light Mode](./Screenshot_7.png)
-![Budget App Charts - Dark Mode](./Screenshot_8.png)
-![Budget App Settings - Light Mode](./Screenshot_9.png)
-![Budget App Settings - Dark Mode](./Screenshot_10.png)
+![Budget App Home Page](./Screenshot_1.webp)
+![Budget App Home Page Scrolled Down](./Screenshot_2.webp)
+![Budget App Add Bucket](./Screenshot_3.webp)
+![Budget App Charts](./Screenshot_4.webp)
+![Budget App Settings](./Screenshot_5.webp)
