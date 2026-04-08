@@ -1,5 +1,5 @@
 ---
-title: "Simple Budget App (Local Only)"
+title: "Simple Budget - Local-Only Web App"
 description: "A simple budget web application to help keep track of expenses."
 summary: "This project is a simple budget local only web application. It allows to track expenses and manage budgets."
 featuredAlt: "Budget App Home Page - Light Mode"
